@@ -12,25 +12,27 @@
 		61B858D1BD9E9FAD4BA79370 /* ConversationStitcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D130A374E9EF94942D72F0 /* ConversationStitcherApp.swift */; };
 		79436019D41ACAA14F947B2F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9E57B8488DC492862F71FC3B /* README.md */; };
 		8042E6FC509F3DD057456EDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2C849157292D15A78260C2 /* Preview Assets.xcassets */; };
-		B319AA342E338E026C2A3C05 /* project.yml in Resources */ = {isa = PBXBuildFile; fileRef = 6AF951976EC6E65BAF16EBB8 /* project.yml */; };
+		C3EBD08A8D20379A5B8E5781 /* SimpleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2610B79EDD7EC7DB0D2C40 /* SimpleContentView.swift */; };
 		CCAB84C4E41D9D9FBC36FAC5 /* ConversationStitcher.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = C6CA075C8AD67D12E7F88036 /* ConversationStitcher.xcodeproj */; };
 		CE9A1C4E40BD113D047A865E /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984CBCAD49836F40A1E18F12 /* ViewModels.swift */; };
 		E0B441139F16D92E0175DF5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4BCB8B8F4766E480FE7319 /* Assets.xcassets */; };
+		F0D3B15BB82343120A3FD64C /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6B8CA664465A331D62143B /* Views.swift */; };
 		FAD5FE52ED36EEEED248D182 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB85E88A958AAEEA1906EF8 /* Services.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0FB85E88A958AAEEA1906EF8 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		1A6B8CA664465A331D62143B /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 		3F4BCB8B8F4766E480FE7319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		439ECA3873A5ED251F47384B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5989118473E73BDB493C1042 /* ConversationStitcher.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ConversationStitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2C849157292D15A78260C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6AF951976EC6E65BAF16EBB8 /* project.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = project.yml; sourceTree = "<group>"; };
 		6B60EB6C8B57CB7520E723F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		984CBCAD49836F40A1E18F12 /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
 		9E57B8488DC492862F71FC3B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A7EFC1B3BB2D3AD0B2A3C2DA /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		C6CA075C8AD67D12E7F88036 /* ConversationStitcher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ConversationStitcher.xcodeproj; sourceTree = "<group>"; };
+		CC2610B79EDD7EC7DB0D2C40 /* SimpleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleContentView.swift; sourceTree = "<group>"; };
 		D2D130A374E9EF94942D72F0 /* ConversationStitcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationStitcherApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,16 +71,17 @@
 				D2D130A374E9EF94942D72F0 /* ConversationStitcherApp.swift */,
 				439ECA3873A5ED251F47384B /* Info.plist */,
 				A7EFC1B3BB2D3AD0B2A3C2DA /* Models.swift */,
-				6AF951976EC6E65BAF16EBB8 /* project.yml */,
 				9E57B8488DC492862F71FC3B /* README.md */,
 				0FB85E88A958AAEEA1906EF8 /* Services.swift */,
+				CC2610B79EDD7EC7DB0D2C40 /* SimpleContentView.swift */,
 				984CBCAD49836F40A1E18F12 /* ViewModels.swift */,
+				1A6B8CA664465A331D62143B /* Views.swift */,
 			);
 			name = ConversationStitcher;
 			path = .;
 			sourceTree = "<group>";
 		};
-		B02F1ACF2D6FAB0200240F05 /* Products */ = {
+		B04264712D6F98850078A75D /* Products */ = {
 			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
@@ -123,7 +126,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B02F1ACF2D6FAB0200240F05 /* Products */;
+					ProductGroup = B04264712D6F98850078A75D /* Products */;
 					ProjectRef = C6CA075C8AD67D12E7F88036 /* ConversationStitcher.xcodeproj */;
 				},
 			);
@@ -143,7 +146,6 @@
 				CCAB84C4E41D9D9FBC36FAC5 /* ConversationStitcher.xcodeproj in Resources */,
 				8042E6FC509F3DD057456EDA /* Preview Assets.xcassets in Resources */,
 				79436019D41ACAA14F947B2F /* README.md in Resources */,
-				B319AA342E338E026C2A3C05 /* project.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +160,9 @@
 				61B858D1BD9E9FAD4BA79370 /* ConversationStitcherApp.swift in Sources */,
 				055D35D625580AC6359B896C /* Models.swift in Sources */,
 				FAD5FE52ED36EEEED248D182 /* Services.swift in Sources */,
+				C3EBD08A8D20379A5B8E5781 /* SimpleContentView.swift in Sources */,
 				CE9A1C4E40BD113D047A865E /* ViewModels.swift in Sources */,
+				F0D3B15BB82343120A3FD64C /* Views.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +214,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,6 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -287,16 +293,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Preview Content";
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ConversationStitcher;
-				PRODUCT_NAME = ConversationStitcher;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,16 +310,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Preview Content";
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ConversationStitcher;
-				PRODUCT_NAME = ConversationStitcher;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
